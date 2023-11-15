@@ -7,7 +7,7 @@ AG Marine Engineering Geology, MARUM, University of Bremen.
 
 Process model :
 ```
-    self.omega_matrix = np.array([[0, -self.P[i], -self.Q[i], -self.R[i]],
+        self.omega_matrix = np.array([[0, -self.P[i], -self.Q[i], -self.R[i]],
                              [self.P[i],  0,  self.R[i], -self.Q[i]],
                              [self.Q[i], -self.R[i], 0,  self.P[i]],
                              [self.R[i], self.Q[i], -self.P[i],  0]])
