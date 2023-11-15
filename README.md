@@ -10,5 +10,6 @@ The software is completely written in python. To use it, download whole project 
 ```
         git@github.com:Silvermoonsniper/Gyroscope_tracking_UKF.git
 ```
+Open main function with name 'Altitude_determination_main_function.py' in your IDE (Spyder, Pycharm...). Select project folder and run.
 
 
