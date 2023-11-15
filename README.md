@@ -5,8 +5,29 @@ Author: Zhengyu Chen
 
 AG Marine Engineering Geology, MARUM, University of Bremen.
 
-
-
+Process model :
+```
+    self.omega_matrix = np.array([[0, -self.P[i], -self.Q[i], -self.R[i]],
+                             [self.P[i],  0,  self.R[i], -self.Q[i]],
+                             [self.Q[i], -self.R[i], 0,  self.P[i]],
+                             [self.R[i], self.Q[i], -self.P[i],  0]])
+        self.delta_w = 0.5* np.sqrt((self.P[i]*self.dt)**2 + (self.Q[i]*self.dt)**2 + (self.R[i]*self.dt)**2)
+        
+    # identity matrix
+        self.I = np.eye(len(self.omega_matrix))
+       
+    #propagate for next state with discrete state space equation
+    
+        self.F_matrix = (self.I*np.cos(0.5*self.delta_w) + (np.sin(0.5*self.delta_w)*(0.5*self.delta_w)*self.omega_matrix))
+        # convert measured angular velocity into quarternion
+        self.angular_velocity = [self.P[i],self.Q[i],self.R[i]]
+        xp = self.angular_velocity_to_quaternion(self.angular_velocity, self.dt)
+        
+        self.xi = np.matmul(self.F_matrix,xp) +np.random.normal(0., 4e-6, 4)
+        # normalize quarternion
+        
+        self.xi = self.xi/np.linalg.norm(self.xi) 
+```
 
 
 
