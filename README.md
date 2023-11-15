@@ -44,6 +44,17 @@ The software is completely written in python. To use it, download whole project 
 ```
 Open main function with name 'Altitude_determination_main_function.py' in your IDE (Spyder, Pycharm...). Select project folder and run the whole file.
 Estimation results and error analysis is plotted then.
+Simulation setup:
+
+body:
+- type: markdown
+  attributes:
+    value: "## Thank you for contributing to our project!"
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this bug report.
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/89796179/283138546-24f1cd7b-ea2b-4106-af47-a962cec3b503.png"
  " width="400" />
