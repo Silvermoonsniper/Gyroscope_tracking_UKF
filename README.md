@@ -7,7 +7,8 @@ AG Marine Engineering Geology, MARUM, University of Bremen.
 
 # Usage of Software.
 The software is completely written in python. To use it, download whole project with command:
-git@github.com:Silvermoonsniper/Gyroscope_tracking_UKF.git
-
+```
+        git@github.com:Silvermoonsniper/Gyroscope_tracking_UKF.git
+```
 
 
