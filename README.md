@@ -28,8 +28,14 @@ Process model :
         
         self.xi = self.xi/np.linalg.norm(self.xi) 
 ```
-
-
+Observation model:
+```
+        self.yi[0] = 2*(xi[1]*xi[3] - xi[0]*xi[2]) 
+        self.yi[1] = 2*(xi[2]*xi[3] + xi[0]*xi[1]) 
+        self.yi[2] = xi[0]**2 + xi[1]**2 -xi[2]**2 -xi[3]**2 
+        self.yi[3] = 2*(xi[1]*xi[2] + xi[0]*xi[3])
+        self.yi = self.yi/np.linalg.norm(self.yi)
+```
 
 # Usage of Software.
 The software is completely written in python. To use it, download whole project with command:
