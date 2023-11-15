@@ -47,8 +47,8 @@ Estimation results and error analysis is plotted then.
 
 Simulation setup:
 
- SNR   4 dB,
- initial estimate: [100,100,100,100]^T
+ SNR:   4dB,
+ Initial estimate: [100,100,100,100]^T
 
 
 
