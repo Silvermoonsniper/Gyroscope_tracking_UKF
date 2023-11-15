@@ -44,40 +44,12 @@ The software is completely written in python. To use it, download whole project 
 ```
 Open main function with name 'Altitude_determination_main_function.py' in your IDE (Spyder, Pycharm...). Select project folder and run the whole file.
 Estimation results and error analysis is plotted then.
+
 Simulation setup:
 
-# Parameter Form
+ SNR   4 dB,
+ initial estimate: [100,100,100,100]^T
 
-Thank you for your interest in contributing to our project! To streamline the process, please provide the following information:
-
-## Contributor Information
-
-- **GitHub Username:** [Your GitHub Username]
-- **Email:** [Your Email Address]
-
-## Parameters
-
-1. **Parameter 1:**
-   - Description: [Description of Parameter 1]
-   - Value: [Provide the value for Parameter 1]
-
-2. **Parameter 2:**
-   - Description: [Description of Parameter 2]
-   - Value: [Provide the value for Parameter 2]
-
-3. ...
-
-## Additional Comments
-
-Is there anything else you would like to add or mention?
-
-[Your additional comments here]
-
-## Submitting the Form
-
-After filling out this form, please [create a new issue](link-to-new-issue-page) with the title "Parameter Submission" and use the label "Parameter Submission". We appreciate your contribution!
-
-Thank you!
 
 
 <p align="center">
