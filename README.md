@@ -1,4 +1,4 @@
-# Gyroscope_tracking_UKF
+# Introduction
 This is a Python project which uses unscented kalman filter to estimate gyroscope data for orientation determination for highly nonlinear system dynamics. 
 
 Author: Zhengyu Chen
@@ -24,4 +24,4 @@ Estimation results and error analysis is plotted then.
 
 
 # References.
-
+H. G. de Marina, F. J. Pereda, J. M. Giron-Sierra and F. Espinosa, "UAV Attitude Estimation Using Unscented Kalman Filter and TRIAD," in IEEE Transactions on Industrial Electronics, vol. 59, no. 11, pp. 4465-4474, Nov. 2012, doi: 10.1109/TIE.2011.2163913.
