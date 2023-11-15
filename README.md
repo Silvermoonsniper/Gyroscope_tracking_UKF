@@ -18,7 +18,7 @@ The software is completely written in python. To use it, download whole project 
 Open main function with name 'Altitude_determination_main_function.py' in your IDE (Spyder, Pycharm...). Select project folder and run the whole file.
 Estimation results and error analysis is plotted then.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/89796179/198900943-f9cbc68c-d451-4304-90a6-686ff666f8a1.png"
+  <img src="https://user-images.githubusercontent.com/89796179/283097191-db069274-20ba-41e5-968b-13e722c1c8ca.png"
  " width="400" />
 </p> 
 
