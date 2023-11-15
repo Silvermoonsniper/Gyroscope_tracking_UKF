@@ -49,7 +49,7 @@ Estimation results and error analysis is plotted then.
  " width="400" />
 </p> 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/89796179/283133763-06133a12-21b6-4bab-8f9a-bbbaeacd2b04.png"
+  <img src="https://user-images.githubusercontent.com/89796179/283138548-f2d998e3-bcec-4c34-9800-1ea4ff2488c4.png"
  " width="400" />
 </p> 
 
