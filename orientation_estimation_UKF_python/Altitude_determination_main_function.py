@@ -29,7 +29,7 @@ if __name__ == '__main__':
     samples_n = 50 # number of data samples
     Q_var = 0.1    # process noise covariance
     R_var = 0.1    # observation noise covariance
-    SNR = 10    # SNR in dB
+    SNR = 4    # SNR in dB
     
     # initialization of software, data extraction and processing for euler angle rates
     
@@ -41,10 +41,10 @@ if __name__ == '__main__':
 
     #initial quarternion values
     x_0 = np.zeros((n, 1))
-    x_0[0, 0] = 1
-    x_0[1, 0] = 0
-    x_0[2, 0] = 1
-    x_0[3, 0] = 0
+    x_0[0, 0] = 0
+    x_0[1, 0] = 1
+    x_0[2, 0] = 0
+    x_0[3, 0] = 1
     #initial quarternion values
     x_00 = np.zeros((n, 1))
     x_00[0, 0] = 100
@@ -59,7 +59,7 @@ if __name__ == '__main__':
     mngm.generate_data()
    
     # construct class of unscented kalman filter
-    ukf =class_unscented_kalman_filter.UKF(n, m)
+    ukf = class_unscented_kalman_filter.UKF(n, m)
 
     #generated data:
     dataX = mngm.x
@@ -95,16 +95,18 @@ if __name__ == '__main__':
     
     # convert quarternions to angular rate
     P,R,Q = angular_rate_calc(est_state,mngm.dt) 
-    P_true,R_true,Q_true = angular_rate_calc(dataX,mngm.dt) 
+    P_true,R_true,Q_true = angular_rate_calc(dataX,mngm.dt)
+    # observation data
+    P_obs,R_obs,Q_obs = angular_rate_calc(dataY,mngm.dt) 
    
     # plot estimation results
     
-    plotting_UKFestimation_results.plot_angular_rate_estimation_comparison(mngm,samples_n, P_true,Q_true,R_true,P,R,Q )
+    plotting_UKFestimation_results.plot_angular_rate_estimation_comparison(P_obs,R_obs,Q_obs,mngm,samples_n, P_true,Q_true,R_true,P,R,Q )
     
     plotting_UKFestimation_results.plot_quarternion_estimation_results(dataX,est_state)    
     
     
-    plotting_UKFestimation_results. plot_Euler_angle_estimation_results(est_roll_arr,est_yaw_arr,est_pitch_arr)
+    # plotting_UKFestimation_results. plot_Euler_angle_estimation_results(est_roll_arr,est_yaw_arr,est_pitch_arr)
     
     
     

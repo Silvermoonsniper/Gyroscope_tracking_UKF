@@ -6,7 +6,7 @@ Created on Tue Jul 11 09:39:16 2023
 """
 
 import numpy as np
-
+import matplotlib.pyplot as plt
 
 def main_unscented_kalman_filter_estimation_loop(signal_std,size_n, n,dataY,dataX,ukf,mngm):
     
@@ -23,11 +23,11 @@ def main_unscented_kalman_filter_estimation_loop(signal_std,size_n, n,dataY,data
     est_pitch_arr = []
     est_yaw_arr = []
     # add AWGN to observation data
-    dataY[:, 0] = dataY[:, 0] + np.random.normal(0., signal_std[0], len(dataY[:, 0]))
+    dataY[:, 0] = dataY[:, 0] + np.random.normal(0., signal_std[0], len(dataY[:, 0])) 
     dataY[:, 1] = dataY[:, 1] + np.random.normal(0., signal_std[1], len(dataY[:, 0]))
     dataY[:, 2] = dataY[:, 2] + np.random.normal(0., signal_std[2], len(dataY[:, 0]))
     dataY[:, 3] = dataY[:, 3] + np.random.normal(0., signal_std[3], len(dataY[:, 0]))
-    print(signal_std[0])
+  
     # estimation loop
     for i in range(size_n):
 

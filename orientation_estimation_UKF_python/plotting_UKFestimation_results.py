@@ -7,26 +7,30 @@ Created on Tue Jul 11 09:27:23 2023
 import matplotlib.pyplot as plt
 import numpy as np
 
-def plot_angular_rate_estimation_comparison(mngm,samples_n, P_true,Q_true,R_true,P,R,Q ):
+def plot_angular_rate_estimation_comparison(dataY,R_obs,Q_obs,mngm,samples_n, P_true,Q_true,R_true,P,R,Q ):
     
     time = np.arange(samples_n)*mngm.dt
     plt.figure(figsize = [14,12])
     plt.subplot(411)
+    plt.plot(time[0::], dataY[0:samples_n], 'g', label='x_1 original')  # X from the orginal ungm
     plt.plot(time[0::], P_true[0:samples_n])
     plt.plot(time, P[0:samples_n])
-    plt.legend(['real','estimate'])
+    plt.title('The estimation of angular velocity of Gyroscope')
+    plt.legend(['Observation','real','estimate'])
     plt.xlabel('time (s)')
     plt.ylabel('angular rate Roll (degreee/s)')
     plt.subplot(412)
+    plt.plot(time[0::], Q_obs[0:samples_n], 'g', label='x_1 original') 
     plt.plot(time[0::], Q_true[0:samples_n])
     plt.plot(time, Q[0:samples_n])
-    plt.legend(['real','estimate'])
+    plt.legend(['Observation','real','estimate'])
     plt.xlabel('time (s)')
     plt.ylabel('angular rate Pitch (degreee/s)')
     plt.subplot(413)
+    plt.plot(time[0::], R_obs[0:samples_n], 'g', label='x_1 original') 
     plt.plot(time[0::], R_true[0:samples_n])
     plt.plot(time, R[0:samples_n])
-    plt.legend(['real','estimate'])
+    plt.legend(['Observation','real','estimate'])
     plt.xlabel('time (s)')
     plt.ylabel('angular rate yaw')
     plt.subplot(414)
