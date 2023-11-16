@@ -54,11 +54,15 @@ Simulation setup:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/89796179/283138546-24f1cd7b-ea2b-4106-af47-a962cec3b503.png"
- " width="400" />
+ " width="800" />
 </p> 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/89796179/283138548-f2d998e3-bcec-4c34-9800-1ea4ff2488c4.png"
- " width="400" />
+ " width="800" />
+</p> 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/89796179/283456821-d1dfb502-0418-4d7f-b28f-0a3ee46a74f6.png"
+ " width="800" />
 </p> 
 
 # References.
