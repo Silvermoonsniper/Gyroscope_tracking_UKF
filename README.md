@@ -7,7 +7,7 @@ AG Marine Engineering Geology, MARUM, University of Bremen.
 
 
 <p align="center">
-  <img src="[https://user-images.githubusercontent.com/89796179/283138546-24f1cd7b-ea2b-4106-af47-a962cec3b503.png]"
+  <img src="[(https://github.com/Silvermoonsniper/Gyroscope_tracking_UKF/issues/4#issue-2035907396)]"
  " width="800" />
 </p> 
 
