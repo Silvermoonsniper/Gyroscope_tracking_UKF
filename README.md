@@ -7,7 +7,7 @@ AG Marine Engineering Geology, MARUM, University of Bremen.
 
 
 <p align="center">
-  <img src="[https://user-images.githubusercontent.com/89796179/283138546-24f1cd7b-ea2b-4106-af47-a962cec3b503.png](https://private-user-images.githubusercontent.com/89796179/289580994-bf70db4b-32c1-450c-8697-e71d240e00ff.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzMDgwMzQsIm5iZiI6MTcwMjMwNzczNCwicGF0aCI6Ii84OTc5NjE3OS8yODk1ODA5OTQtYmY3MGRiNGItMzJjMS00NTBjLTg2OTctZTcxZDI0MGUwMGZmLlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjExVDE1MTUzNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZiNzQ0MzRhOTY2NzllYjlhOTQ0MjFiNGVjMGJlNGQzMjNhNDNjNGNhZDRjMDczODc3Yjg2MDZkZGI5YmMwYzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.bUK2E2vt9WWMF6CcoYZcdZ6k8Bn8gB_HZKIaTRAUNMc)"
+  <img src="[https://user-images.githubusercontent.com/89796179/283138546-24f1cd7b-ea2b-4106-af47-a962cec3b503.png]"
  " width="800" />
 </p> 
 
