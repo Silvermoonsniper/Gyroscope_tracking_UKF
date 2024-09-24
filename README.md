@@ -3,7 +3,7 @@ This is a Python project which uses unscented kalman filter to estimate gyroscop
 
 Author: Zhengyu Chen
 
-AG Marine Engineering Geology, MARUM, University of Bremen.
+
 
 The illustration of aircraft orientation and axes [1]
 <p align="center">
